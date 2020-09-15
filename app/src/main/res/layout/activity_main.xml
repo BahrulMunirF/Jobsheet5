@@ -22,11 +22,10 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="360dp"
-        android:layout_marginRight="360dp"
         android:text="Email"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="45dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -52,6 +51,7 @@
         tools:layout_editor_absoluteY="84dp" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="409dp"
         android:layout_height="500dp"
         android:orientation="vertical"
